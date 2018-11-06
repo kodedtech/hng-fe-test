@@ -1,0 +1,41 @@
+// Your variable overrides
+$body-bg: #ffffff;
+$body-color: #000000;
+$brown-color: #7C0505;
+$gray-color: #AEAEAE;
+
+$theme-colors: (
+  "primary": #020202,
+  "danger": #ff4136
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body.app {
+    border-top: 20px solid $gray-color; 
+    padding-top: 30px;
+}
+
+.sidebar-sticky {
+    border-right: 0.5px solid $gray-color;
+}
+
+.social-icons {
+    a {
+        padding: 10px;
+        text-align: center;
+        display: inline-block;
+        span {
+            display: block;
+        }
+    }
+}
+
+.read-more {
+    color: $brown-color;
+}
+
+.d-flex{
+    border: solid;
+    background-color: d3d3d3;
+}

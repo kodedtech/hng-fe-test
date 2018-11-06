@@ -1,0 +1,22 @@
+{
+  "name": "hng-fe-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IDTitanium/hng-fe-test.git"
+  },
+  "author": "Uche Amaka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IDTitanium/hng-fe-test/issues"
+  },
+  "homepage": "https://github.com/IDTitanium/hng-fe-test#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}
